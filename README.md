@@ -34,7 +34,7 @@ Além disso, uma matriz de separação S=[sij] determina o tempo mínimo que dev
 - O projeto deve estar documentado com README, código-fonte, e relatório completo.
 
 ## Solver Utilizado
-(Preencher)
+GLPK
 
 ## Metaheurística Utilizada
 Variable Neighborhood Search (VNS)
