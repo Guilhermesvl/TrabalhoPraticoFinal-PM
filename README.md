@@ -5,7 +5,7 @@ Disciplina: GCC118 - Programação Matemática.
 
 ## Equipe
 - Aluno 1: Guilherme Henrique Silva Barbara - 202120499;
-- Aluno 2: (Preencher).
+- Aluno 2: Lucas Malachias Furtado - .
 
 ## Introdução
 Este projeto consiste em resolver o problema de otimização de aterrissagem de aeronaves em um grande aeroporto brasileiro. O problema visa minimizar penalidades relacionadas ao tempo de pouso fora do intervalo ideal para cada avião, considerando uma única pista principal de voo.
@@ -34,41 +34,50 @@ Além disso, uma matriz de separação S=[sij] determina o tempo mínimo que dev
 - O projeto deve estar documentado com README, código-fonte, e relatório completo.
 
 ## Solver Utilizado
-GLPK
+CBC
 
 ## Metaheurística Utilizada
 Variable Neighborhood Search (VNS)
 
-### Escolhas Implementadas
-- **Representação do Problema:** (Preencher);
-- **Função Objetivo:** (Preencher);
-- **Solução Inicial:** (Preencher);
-- **Estratégia de Busca Local:** (Preencher);
-- **Critério de Parada:** (Preencher).
 
 ## Resultados Computacionais
 Os resultados computacionais serão apresentados com as seguintes informações:
-- Valor da Solução Inicial (SI)
-- Valor da Solução Final (SF)
-- Desvio percentual entre SI e SF
-- Desvio percentual entre SF e solução ótima
-- Tempo computacional da metaheurística e do solver
+- Valor da Solução Inicial (SI);
+- Valor da Solução Final (SF);
+- Desvio percentual entre SI e SF;
+- Desvio percentual entre SF e solução ótima;
+- Tempo computacional da metaheurística e do solver.
 
 ## Instâncias Teste
-Link para download das instâncias: [https://drive.google.com/file/d/1_FB9c04PjbI6f_qvGQoXyu24Czr55b3R/view?usp=sharing](https://drive.google.com/file/d/1_FB9c04PjbI6f_qvGQoXyu24Czr55b3R/view?usp=sharing)
+Link para download das instâncias: https://drive.google.com/file/d/1_FB9cO4PjbI6f_qvGQoXyu24Czr55b3R/view?usp=drive_link
 
 Valores de referência:
-- Instância 1: 700
-- Instância 2: 1480
-- Instância 3: 820
-- Instância 4: 2520
-- Instância 5: 3100
-- Instância 6: 24442
-- Instância 7: 1550
-- Instância 8: 1950
+| Instância | Valor  |
+|-----------|--------|
+| Instância 1 | 700    |
+| Instância 2 | 1480   |
+| Instância 3 | 820    |
+| Instância 4 | 2520   |
+| Instância 5 | 3100   |
+| Instância 6 | 24442  |
+| Instância 7 | 1550   |
+| Instância 8 | 1950   |
+
 
 ## Como Executar
-(Preencher)
+
+Para executar o script e obter os resultados para todas as instâncias automaticamente, siga os passos abaixo:
+
+1. Certifique-se de estar no diretório do projeto.  
+
+   ```bash
+   cd problema_do_aviao
+
+2. Execute o script
+O script irá iterar automaticamente sobre todas as instâncias presentes no diretório problema_do_aviao/instances/, processando os arquivos 01.dat a 08.dat.
+
+3. Os resultados para cada instância serão exibidos diretamente no terminal ao final da execução.
+
 
 
 

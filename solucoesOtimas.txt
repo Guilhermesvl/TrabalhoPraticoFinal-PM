@@ -1,0 +1,20 @@
+
+Instância: 01.dat
+Valor ótimo da solução (Solver): 1060.0
+Tempos de pouso: 151.0, 195.0, 88.0, 96.0, 104.0, 120.0, 112.0, 128.0, 136.0, 166.0
+Tempo de execução do Solver: 0.25 segundos
+
+Instância: 02.dat
+Valor ótimo da solução (Solver): 1870.0
+Tempos de pouso: 65.0, 190.0, 80.0, 88.0, 96.0, 104.0, 112.0, 120.0, 128.0, 136.0, 266.0, 251.0, 160.0, 152.0, 276.0
+Tempo de execução do Solver: 3.88 segundos
+
+Instância: 03.dat
+Valor ótimo da solução (Solver): 1730.0
+Tempos de pouso: 75.0, 166.0, 60.0, 103.0, 201.0, 95.0, 185.0, 87.0, 127.0, 119.0, 135.0, 111.0, 261.0, 250.0, 214.0, 310.0, 269.0, 237.0, 143.0, 151.0
+Tempo de execução do Solver: 7.30 segundos
+
+Instância: 04.dat
+Valor ótimo da solução (Solver): 3810.0
+Tempos de pouso: 64.0, 80.0, 183.0, 204.0, 72.0, 104.0, 112.0, 96.0, 88.0, 221.0, 232.0, 136.0, 120.0, 235.0, 160.0, 128.0, 152.0, 168.0, 144.0, 286.0
+Tempo de execução do Solver: 1200.30 segundos
